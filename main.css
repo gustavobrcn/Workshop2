@@ -31,3 +31,58 @@ p {
   padding-bottom: 2%;
   font-weight: bold;
 }
+
+/* -------------------Gallary------------------- */
+.watermelons {
+  text-align: center;
+  display: grid;
+  grid-template: auto / repeat(3, 32%);
+  grid-gap: 2%;
+}
+
+.melon1 {
+  width: 65%;
+  height: 100%;
+}
+
+.melon2 {
+  width: 65%;
+  height: auto;
+}
+
+.melon3 {
+  width: 65%;
+  height: auto;
+}
+
+/* -------------------Offers------------------- */
+.offers{
+  background: #ea5169;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 30pt;
+  text-align: center;
+}
+
+.melonType {
+  text-align: center;
+  display: grid;
+  grid-template: auto / repeat(4, 22%);
+  grid-gap: 1%;
+  font-family: sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  }
+
+h4 {
+  font-family: sans-serif;
+  font-size: 20pt;
+  text-align: center;
+}
+
+.melonType ul {
+  list-style: none;
+  padding-top: : 0;
+}
